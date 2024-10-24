@@ -34,3 +34,4 @@ SSOT specifications server is licensed under the [MIT](LICENSE) license.
 ## Acknowledgements
 
 - [Voys](https://www.voys.nl/) for facilitating the internship where this project was developed
+- Alex Edwards for providing an excellent resource on building an API with Go, _[Let's Go Further!](https://lets-go-further.alexedwards.net)_, upon which this project is based
