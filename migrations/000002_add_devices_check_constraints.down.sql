@@ -1,0 +1,1 @@
+ALTER TABLE devices DROP CONSTRAINT IF EXISTS check_last_updated_at;
