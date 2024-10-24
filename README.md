@@ -16,10 +16,9 @@ For the related API client and OpenAPI documentation, see [ssot-specs-api-client
 
 ### Setup locally
 
-1. Install Go: https://go.dev/doc/install
-2. Install and setup postgres: https://www.postgresql.org/docs/current/tutorial-start.html. You need to create a database named `ssotdb` with a user named `ssot`. You may provide a password yourself.
-3. Create a GitLab application with the `openid` scope and a redirect to `http://localhost:3000/callback`. Ensure "Confidential" is unchecked. You can create the application on https://\<yourgitlabdomain\>/-/profile/applications
-4. Copy the `.env.example` file to `.env` and fill in the values. The API key can be anything, and the DSN is in the following format: `postgres://<username>:<password>@<host>:<port>/<database>`. For example: `postgres://ssot:password@localhost/ssotdb`
+1. Install and setup postgres: https://www.postgresql.org/docs/current/tutorial-start.html. You need to create a database named `ssotdb` with a user named `ssot`. You may provide a password yourself.
+2. Create a GitLab application with the `openid` scope and a redirect to `http://localhost:3000/callback`. Ensure "Confidential" is unchecked. You can create the application on https://\<yourgitlabdomain\>/-/profile/applications
+3. Copy the `.env.example` file to `.env` and fill in the values. The API key can be anything, and the DSN is in the following format: `postgres://<username>:<password>@<host>:<port>/<database>`. For example: `postgres://ssot:password@localhost/ssotdb`
 
 ### Installation and running
 
